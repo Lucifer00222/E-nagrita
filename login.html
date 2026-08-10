@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Sign Up</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Login Form -->
+        <div id="loginForm" class="form-container">
+            <img src="fin.png" alt="Logo" class="Logo">
+
+            <form>
+                <div class="input-group">
+                    <label for="loginEmail">Email<span style="color:red;">*</span> </label>
+                    <input type="email" id="loginEmail" class="textbox" class="colorchange "
+                        placeholder="Enter your email" required autocomplete="off">
+                </div>
+
+                <div class="input-group">
+                    <label for="loginPassword">Password</label>
+                    <input type="password" class="textbox" class="colorchange" id="loginPassword"
+                        placeholder="Enter your password" required autocomplete="off">
+                    <div class="two-btn">
+                        <div class="forgot-password">
+                            <a href="forgot.html">Forgot Password?</a>
+                        </div>
+                        <div class="remember-me">
+                            <input type="checkbox" id="rememberMe">
+                            <label for="rememberMe">Remember Me</label>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <button type="submit" class="btn">Login</button>
+            </form>
+
+            <div class="divider">
+                <span>OR</span>
+            </div>
+
+            <div class="social-login">
+                <button class="social-btn">Google</button>
+                <button class="social-btn">Facebook</button>
+            </div>
+
+            <div class="switch-form">
+                Don't have an account? <a href="#">Sign Up</a>
+            </div>
+            <div class="gohome">
+                <a href="Index.html">Go home</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
